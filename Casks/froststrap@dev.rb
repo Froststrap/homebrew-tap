@@ -1,9 +1,9 @@
 cask "froststrap@dev" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.0.9-beta.1"
-  sha256 arm:   "8f67a44a8891d772247200a078e4d777e49ce0ee8dcd7f3dbcc0fa6da1ed548b",
-         intel: "7971d70276cf68db29ba279e3f3b9d02f2d7a269d34598a8887d526ec07f9778"
+  version "2.0.9-beta.2"
+  sha256 arm:   "7dd998cabd36a39a617056957959f45f2a19eedc6612a15f268f90a7055da6a2",
+         intel: "c470b4ca3c87a94e4c161acfc3885bade2212b2b3f22157d00502858ebd1a4f7"
 
   url "https://github.com/Froststrap/packages/releases/download/v#{version}/Froststrap-macos-#{arch}-Setup.pkg"
   name "Froststrap (dev)"
